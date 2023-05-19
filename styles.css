@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #222;
+}
+
+body {
+    width: 75%;
+    margin: auto;
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 110px 3%;
+    color: #e5e7eb;
+    background-color: #1f2937;
+    padding-bottom: 110px;
+}
+
+header div {
+    width: 35%;
+}
+
+div.header-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6d747d;
+}
+
+nav {
+    width: 73%;
+    margin-top: 20px;
+}
+
+nav ul {
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+    list-style-type: none;
+}
+
+nav a, p {
+    font-size: 18px;
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+a:hover {
+    color: #9da198;
+}
+
+li.logo {
+    margin-right: auto;
+}
+
+li.logo a {
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+button {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #3882f6;
+    padding: 7px 33px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+section.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 95px;
+    background-color: #fff;
+    text-align: center;
+}
+
+section.img-container h2 {
+    width: 100%;
+    font-size: 36px;
+    color: #1f2937;
+    margin-top: 50px;
+}
+
+section.img-container figcaption {
+    padding-top: 8px;
+    color: #4b5563;
+}
+
+section.img-container figure {
+    width: 155px;
+}
+
+div.section-img {
+    height: 155px;
+    border: 4px solid #3b82f6;
+    border-radius: 16px;
+}
+
+figure.quote {
+    padding: 110px 0;
+    color: #1f2937;
+    background-color: #e5e7eb;
+}
+
+figure.quote figcaption {
+    font-size: 24px;
+    text-align: right;
+    padding-right: 25%;
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    width: 55%;
+    margin: auto;
+}
+
+div.action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    background-color: #fff;
+}
+
+div.action-container button {
+    border: 2px solid;
+    margin-top: 0;
+}
+
+div.action {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 50px 125px;
+    border-radius: 8px;
+}
+
+div.action h2 {
+    color: #f9faf8;
+}
+
+footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 40px;
+}
